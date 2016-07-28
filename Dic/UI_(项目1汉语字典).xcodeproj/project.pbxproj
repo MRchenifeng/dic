@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186D802D1D421BA8005F157A /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D802B1D421BA8005F157A /* FeedBackViewController.m */; };
+		186D802E1D421BA8005F157A /* FeedBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186D802C1D421BA8005F157A /* FeedBackViewController.xib */; };
+		186D80321D45F00E005F157A /* PyDecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D80311D45F00E005F157A /* PyDecViewController.m */; };
+		186D80391D45F282005F157A /* PydTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D80371D45F282005F157A /* PydTableViewCell.m */; };
+		186D803A1D45F282005F157A /* PydTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186D80381D45F282005F157A /* PydTableViewCell.xib */; };
+		186D80941D47483C005F157A /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186D80931D47483C005F157A /* iflyMSC.framework */; };
+		186D80961D47488B005F157A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186D80951D47488B005F157A /* CoreLocation.framework */; };
+		186D80981D4748A2005F157A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186D80971D4748A2005F157A /* CoreTelephony.framework */; };
+		186D809A1D4748B1005F157A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186D80991D4748B1005F157A /* AVFoundation.framework */; };
+		186D809C1D4748C2005F157A /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186D809B1D4748C2005F157A /* AddressBook.framework */; };
+		186D809E1D4748D0005F157A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186D809D1D4748D0005F157A /* AudioToolbox.framework */; };
+		186D80A01D4748DE005F157A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186D809F1D4748DE005F157A /* SystemConfiguration.framework */; };
+		186D80A21D4748EB005F157A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186D80A11D4748EB005F157A /* QuartzCore.framework */; };
+		186D80A41D4748F8005F157A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186D80A31D4748F8005F157A /* UIKit.framework */; };
+		186D80A61D474909005F157A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186D80A51D474909005F157A /* Foundation.framework */; };
+		186D80A81D47491B005F157A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186D80A71D47491B005F157A /* CoreGraphics.framework */; };
+		186D80AA1D474931005F157A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 186D80A91D474931005F157A /* libz.tbd */; };
+		18F197271D40EB1C0014F37D /* MoreChoicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F197261D40EB1C0014F37D /* MoreChoicesViewController.m */; };
+		18F1972B1D40EBB80014F37D /* MoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F197291D40EBB80014F37D /* MoreTableViewCell.m */; };
+		18F1972C1D40EBB80014F37D /* MoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F1972A1D40EBB80014F37D /* MoreTableViewCell.xib */; };
+		C33F08D21D3DD6AD00C31C93 /* aaaaa2.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C33F08D11D3DD6AD00C31C93 /* aaaaa2.sqlite */; };
+		C33F08D51D3E177000C31C93 /* BsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33F08D41D3E177000C31C93 /* BsViewController.m */; };
+		C33F08D71D3E1B6000C31C93 /* PinyinFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = C33F08D61D3E1B6000C31C93 /* PinyinFile.plist */; };
+		C34D969C1D3E4BFE00E18213 /* BushouModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C34D969B1D3E4BFE00E18213 /* BushouModel.m */; };
+		C37BFD781D3C6AA1009E09B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BFD771D3C6AA1009E09B8 /* main.m */; };
+		C37BFD7B1D3C6AA1009E09B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BFD7A1D3C6AA1009E09B8 /* AppDelegate.m */; };
+		C37BFD7E1D3C6AA2009E09B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BFD7D1D3C6AA2009E09B8 /* ViewController.m */; };
+		C37BFD811D3C6AA2009E09B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37BFD7F1D3C6AA2009E09B8 /* Main.storyboard */; };
+		C37BFD831D3C6AA2009E09B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37BFD821D3C6AA2009E09B8 /* Assets.xcassets */; };
+		C37BFD861D3C6AA2009E09B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37BFD841D3C6AA2009E09B8 /* LaunchScreen.storyboard */; };
+		C37BFD951D3C8199009E09B8 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BFD931D3C8199009E09B8 /* SearchViewController.m */; };
+		C37BFD991D3CC37A009E09B8 /* PyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BFD981D3CC37A009E09B8 /* PyViewController.m */; };
+		C37BFD9C1D3CD324009E09B8 /* PinyinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BFD9B1D3CD324009E09B8 /* PinyinModel.m */; };
+		C37BFD9E1D3CEB03009E09B8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C37BFD9D1D3CEB03009E09B8 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		186D802A1D421BA8005F157A /* FeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackViewController.h; sourceTree = "<group>"; };
+		186D802B1D421BA8005F157A /* FeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackViewController.m; sourceTree = "<group>"; };
+		186D802C1D421BA8005F157A /* FeedBackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedBackViewController.xib; sourceTree = "<group>"; };
+		186D80301D45F00E005F157A /* PyDecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyDecViewController.h; sourceTree = "<group>"; };
+		186D80311D45F00E005F157A /* PyDecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PyDecViewController.m; sourceTree = "<group>"; };
+		186D80361D45F282005F157A /* PydTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PydTableViewCell.h; path = ../PydTableViewCell.h; sourceTree = "<group>"; };
+		186D80371D45F282005F157A /* PydTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PydTableViewCell.m; path = ../PydTableViewCell.m; sourceTree = "<group>"; };
+		186D80381D45F282005F157A /* PydTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PydTableViewCell.xib; path = ../PydTableViewCell.xib; sourceTree = "<group>"; };
+		186D80931D47483C005F157A /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		186D80951D47488B005F157A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		186D80971D4748A2005F157A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		186D80991D4748B1005F157A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		186D809B1D4748C2005F157A /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		186D809D1D4748D0005F157A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		186D809F1D4748DE005F157A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		186D80A11D4748EB005F157A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		186D80A31D4748F8005F157A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		186D80A51D474909005F157A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		186D80A71D47491B005F157A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		186D80A91D474931005F157A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18F197251D40EB1C0014F37D /* MoreChoicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreChoicesViewController.h; sourceTree = "<group>"; };
+		18F197261D40EB1C0014F37D /* MoreChoicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreChoicesViewController.m; sourceTree = "<group>"; };
+		18F197281D40EBB80014F37D /* MoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreTableViewCell.h; sourceTree = "<group>"; };
+		18F197291D40EBB80014F37D /* MoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreTableViewCell.m; sourceTree = "<group>"; };
+		18F1972A1D40EBB80014F37D /* MoreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreTableViewCell.xib; sourceTree = "<group>"; };
+		C33F08D11D3DD6AD00C31C93 /* aaaaa2.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = aaaaa2.sqlite; sourceTree = "<group>"; };
+		C33F08D31D3E177000C31C93 /* BsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BsViewController.h; sourceTree = "<group>"; };
+		C33F08D41D3E177000C31C93 /* BsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BsViewController.m; sourceTree = "<group>"; };
+		C33F08D61D3E1B6000C31C93 /* PinyinFile.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = PinyinFile.plist; sourceTree = "<group>"; };
+		C34D969A1D3E4BFE00E18213 /* BushouModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BushouModel.h; sourceTree = "<group>"; };
+		C34D969B1D3E4BFE00E18213 /* BushouModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BushouModel.m; sourceTree = "<group>"; };
+		C37BFD731D3C6AA1009E09B8 /* UI_(项目1汉语字典).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI_(项目1汉语字典).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37BFD771D3C6AA1009E09B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C37BFD791D3C6AA1009E09B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C37BFD7A1D3C6AA1009E09B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C37BFD7C1D3C6AA2009E09B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C37BFD7D1D3C6AA2009E09B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C37BFD801D3C6AA2009E09B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C37BFD821D3C6AA2009E09B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C37BFD851D3C6AA2009E09B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C37BFD871D3C6AA2009E09B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C37BFD921D3C8199009E09B8 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = ../SearchViewController.h; sourceTree = "<group>"; };
+		C37BFD931D3C8199009E09B8 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = ../SearchViewController.m; sourceTree = "<group>"; };
+		C37BFD971D3CC37A009E09B8 /* PyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyViewController.h; sourceTree = "<group>"; };
+		C37BFD981D3CC37A009E09B8 /* PyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PyViewController.m; sourceTree = "<group>"; };
+		C37BFD9A1D3CD324009E09B8 /* PinyinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinModel.h; sourceTree = "<group>"; };
+		C37BFD9B1D3CD324009E09B8 /* PinyinModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinModel.m; sourceTree = "<group>"; };
+		C37BFD9D1D3CEB03009E09B8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C37BFD701D3C6AA1009E09B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186D80AA1D474931005F157A /* libz.tbd in Frameworks */,
+				186D80A81D47491B005F157A /* CoreGraphics.framework in Frameworks */,
+				186D80A61D474909005F157A /* Foundation.framework in Frameworks */,
+				186D80A41D4748F8005F157A /* UIKit.framework in Frameworks */,
+				186D80A21D4748EB005F157A /* QuartzCore.framework in Frameworks */,
+				186D80A01D4748DE005F157A /* SystemConfiguration.framework in Frameworks */,
+				186D809E1D4748D0005F157A /* AudioToolbox.framework in Frameworks */,
+				186D809C1D4748C2005F157A /* AddressBook.framework in Frameworks */,
+				186D809A1D4748B1005F157A /* AVFoundation.framework in Frameworks */,
+				186D80981D4748A2005F157A /* CoreTelephony.framework in Frameworks */,
+				186D80961D47488B005F157A /* CoreLocation.framework in Frameworks */,
+				186D80941D47483C005F157A /* iflyMSC.framework in Frameworks */,
+				C37BFD9E1D3CEB03009E09B8 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186D802F1D45ED51005F157A /* description */ = {
+			isa = PBXGroup;
+			children = (
+				186D80361D45F282005F157A /* PydTableViewCell.h */,
+				186D80371D45F282005F157A /* PydTableViewCell.m */,
+				186D80381D45F282005F157A /* PydTableViewCell.xib */,
+				186D80301D45F00E005F157A /* PyDecViewController.h */,
+				186D80311D45F00E005F157A /* PyDecViewController.m */,
+			);
+			name = description;
+			sourceTree = "<group>";
+		};
+		C37BFD6A1D3C6AA1009E09B8 = {
+			isa = PBXGroup;
+			children = (
+				186D80A91D474931005F157A /* libz.tbd */,
+				186D80A71D47491B005F157A /* CoreGraphics.framework */,
+				186D80A51D474909005F157A /* Foundation.framework */,
+				186D80A31D4748F8005F157A /* UIKit.framework */,
+				186D80A11D4748EB005F157A /* QuartzCore.framework */,
+				186D809F1D4748DE005F157A /* SystemConfiguration.framework */,
+				186D809D1D4748D0005F157A /* AudioToolbox.framework */,
+				186D809B1D4748C2005F157A /* AddressBook.framework */,
+				186D80991D4748B1005F157A /* AVFoundation.framework */,
+				186D80971D4748A2005F157A /* CoreTelephony.framework */,
+				186D80951D47488B005F157A /* CoreLocation.framework */,
+				186D80931D47483C005F157A /* iflyMSC.framework */,
+				C33F08D11D3DD6AD00C31C93 /* aaaaa2.sqlite */,
+				C37BFD9D1D3CEB03009E09B8 /* libsqlite3.tbd */,
+				C33F08D61D3E1B6000C31C93 /* PinyinFile.plist */,
+				C37BFD751D3C6AA1009E09B8 /* UI_(项目1汉语字典) */,
+				C37BFD741D3C6AA1009E09B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C37BFD741D3C6AA1009E09B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C37BFD731D3C6AA1009E09B8 /* UI_(项目1汉语字典).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C37BFD751D3C6AA1009E09B8 /* UI_(项目1汉语字典) */ = {
+			isa = PBXGroup;
+			children = (
+				C37BFD921D3C8199009E09B8 /* SearchViewController.h */,
+				C37BFD931D3C8199009E09B8 /* SearchViewController.m */,
+				C37BFD791D3C6AA1009E09B8 /* AppDelegate.h */,
+				C37BFD7A1D3C6AA1009E09B8 /* AppDelegate.m */,
+				C37BFD7C1D3C6AA2009E09B8 /* ViewController.h */,
+				C37BFD7D1D3C6AA2009E09B8 /* ViewController.m */,
+				C37BFD7F1D3C6AA2009E09B8 /* Main.storyboard */,
+				C33F08D31D3E177000C31C93 /* BsViewController.h */,
+				C33F08D41D3E177000C31C93 /* BsViewController.m */,
+				C37BFD971D3CC37A009E09B8 /* PyViewController.h */,
+				C37BFD981D3CC37A009E09B8 /* PyViewController.m */,
+				C37BFD9A1D3CD324009E09B8 /* PinyinModel.h */,
+				C37BFD9B1D3CD324009E09B8 /* PinyinModel.m */,
+				C34D969A1D3E4BFE00E18213 /* BushouModel.h */,
+				C34D969B1D3E4BFE00E18213 /* BushouModel.m */,
+				18F197251D40EB1C0014F37D /* MoreChoicesViewController.h */,
+				18F197261D40EB1C0014F37D /* MoreChoicesViewController.m */,
+				186D802A1D421BA8005F157A /* FeedBackViewController.h */,
+				186D802B1D421BA8005F157A /* FeedBackViewController.m */,
+				186D802C1D421BA8005F157A /* FeedBackViewController.xib */,
+				18F197281D40EBB80014F37D /* MoreTableViewCell.h */,
+				18F197291D40EBB80014F37D /* MoreTableViewCell.m */,
+				18F1972A1D40EBB80014F37D /* MoreTableViewCell.xib */,
+				C37BFD821D3C6AA2009E09B8 /* Assets.xcassets */,
+				C37BFD841D3C6AA2009E09B8 /* LaunchScreen.storyboard */,
+				C37BFD871D3C6AA2009E09B8 /* Info.plist */,
+				186D802F1D45ED51005F157A /* description */,
+				C37BFD761D3C6AA1009E09B8 /* Supporting Files */,
+			);
+			path = "UI_(项目1汉语字典)";
+			sourceTree = "<group>";
+		};
+		C37BFD761D3C6AA1009E09B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C37BFD771D3C6AA1009E09B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C37BFD721D3C6AA1009E09B8 /* UI_(项目1汉语字典) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37BFD8A1D3C6AA2009E09B8 /* Build configuration list for PBXNativeTarget "UI_(项目1汉语字典)" */;
+			buildPhases = (
+				C37BFD6F1D3C6AA1009E09B8 /* Sources */,
+				C37BFD701D3C6AA1009E09B8 /* Frameworks */,
+				C37BFD711D3C6AA1009E09B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI_(项目1汉语字典)";
+			productName = "UI_(项目1汉语字典)";
+			productReference = C37BFD731D3C6AA1009E09B8 /* UI_(项目1汉语字典).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C37BFD6B1D3C6AA1009E09B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ibakan;
+				TargetAttributes = {
+					C37BFD721D3C6AA1009E09B8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C37BFD6E1D3C6AA1009E09B8 /* Build configuration list for PBXProject "UI_(项目1汉语字典)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C37BFD6A1D3C6AA1009E09B8;
+			productRefGroup = C37BFD741D3C6AA1009E09B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C37BFD721D3C6AA1009E09B8 /* UI_(项目1汉语字典) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C37BFD711D3C6AA1009E09B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F1972C1D40EBB80014F37D /* MoreTableViewCell.xib in Resources */,
+				C33F08D21D3DD6AD00C31C93 /* aaaaa2.sqlite in Resources */,
+				186D802E1D421BA8005F157A /* FeedBackViewController.xib in Resources */,
+				C37BFD861D3C6AA2009E09B8 /* LaunchScreen.storyboard in Resources */,
+				C37BFD831D3C6AA2009E09B8 /* Assets.xcassets in Resources */,
+				186D803A1D45F282005F157A /* PydTableViewCell.xib in Resources */,
+				C37BFD811D3C6AA2009E09B8 /* Main.storyboard in Resources */,
+				C33F08D71D3E1B6000C31C93 /* PinyinFile.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C37BFD6F1D3C6AA1009E09B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37BFD7E1D3C6AA2009E09B8 /* ViewController.m in Sources */,
+				C37BFD7B1D3C6AA1009E09B8 /* AppDelegate.m in Sources */,
+				18F1972B1D40EBB80014F37D /* MoreTableViewCell.m in Sources */,
+				C37BFD951D3C8199009E09B8 /* SearchViewController.m in Sources */,
+				186D80321D45F00E005F157A /* PyDecViewController.m in Sources */,
+				18F197271D40EB1C0014F37D /* MoreChoicesViewController.m in Sources */,
+				C37BFD991D3CC37A009E09B8 /* PyViewController.m in Sources */,
+				C37BFD9C1D3CD324009E09B8 /* PinyinModel.m in Sources */,
+				C33F08D51D3E177000C31C93 /* BsViewController.m in Sources */,
+				C37BFD781D3C6AA1009E09B8 /* main.m in Sources */,
+				186D80391D45F282005F157A /* PydTableViewCell.m in Sources */,
+				C34D969C1D3E4BFE00E18213 /* BushouModel.m in Sources */,
+				186D802D1D421BA8005F157A /* FeedBackViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C37BFD7F1D3C6AA2009E09B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37BFD801D3C6AA2009E09B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C37BFD841D3C6AA2009E09B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37BFD851D3C6AA2009E09B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C37BFD881D3C6AA2009E09B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C37BFD891D3C6AA2009E09B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C37BFD8B1D3C6AA2009E09B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "UI_(项目1汉语字典)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibokan.UI----1-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C37BFD8C1D3C6AA2009E09B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "UI_(项目1汉语字典)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibokan.UI----1-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C37BFD6E1D3C6AA1009E09B8 /* Build configuration list for PBXProject "UI_(项目1汉语字典)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37BFD881D3C6AA2009E09B8 /* Debug */,
+				C37BFD891D3C6AA2009E09B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37BFD8A1D3C6AA2009E09B8 /* Build configuration list for PBXNativeTarget "UI_(项目1汉语字典)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37BFD8B1D3C6AA2009E09B8 /* Debug */,
+				C37BFD8C1D3C6AA2009E09B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C37BFD6B1D3C6AA1009E09B8 /* Project object */;
+}
